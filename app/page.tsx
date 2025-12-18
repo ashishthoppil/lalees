@@ -345,7 +345,7 @@ export default function Home() {
         </section>
 
         <footer className="border-t border-slate-200 bg-white">
-          <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 py-10 md:flex-row md:items-center md:justify-between">
+          <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 py-10 md:flex-row md:items-center md:justify-between">
             <div className="flex items-center gap-3">
               <Image
                 src="/images/logo.png"
@@ -361,17 +361,17 @@ export default function Home() {
                 <p className="text-sm text-slate-600">Kattanam, Kayamkulam</p>
               </div>
             </div>
-            <div className="flex flex-col gap-3 text-sm text-slate-700 md:items-end">
-            <div className="flex items-center gap-3">
-              <a
-                href="https://www.instagram.com/laleehomecake"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 rounded-full border border-slate-200 px-2 py-2 text-slate-800 transition hover:-translate-y-0.5 hover:border-slate-300"
-              >
-                <InstagramIcon className="h-4 w-4" />
-              </a>
-            </div>
+            <div className="flex flex-col items-center gap-3 text-sm text-slate-700 md:items-end">
+              <div className="flex items-center gap-3">
+                <a
+                  href="https://www.instagram.com/laleehomecake"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 rounded-full border border-slate-200 px-2 py-2 text-slate-800 transition hover:-translate-y-0.5 hover:border-slate-300"
+                >
+                  <InstagramIcon className="h-4 w-4" />
+                </a>
+              </div>
               <div className="flex flex-wrap gap-2 text-sm text-slate-600">
                 <span>Call/WhatsApp: {PHONE_NUMBER}</span>
               </div>
